@@ -10,7 +10,7 @@ $("#start-button").click(function(){
         clearInterval(timerInterval);
         timerInterval = null;
     }
-    setTimerValue(60);
+    setTimerValue(200);
     timerInterval = setInterval(function(){
         setTimerValue(timerValue -1);
         if(timerValue<=0){
